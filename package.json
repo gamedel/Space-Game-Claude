@@ -1,0 +1,11 @@
+{
+  "name": "star-corsair",
+  "version": "1.0.0",
+  "description": "Star Corsair - 2D Space Shooter Game",
+  "scripts": {
+    "start": "npx serve . -p 8080 --no-clipboard",
+    "slice": "python3 slice_atlas.py --input assets/atlas.png --output-dir assets/sprites"
+  },
+  "keywords": ["game", "space", "shooter", "phaser3"],
+  "license": "MIT"
+}
